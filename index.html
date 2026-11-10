@@ -21,6 +21,8 @@
                 <option value="bowser" data-base="70">Bowser (Base: 70)</option>
                 <option value="toad" data-base="30">Toad (Base: 30)</option>
                 <option value="peach" data-base="55">Peach (Base: 55)</option>
+                <option value="luigi" data-base="50">luigi (Base: 50)</option>
+                <option value="yoshi" data-base="40">yoshi (Base: 40)</option>
             </select>
         </div>
 
@@ -30,6 +32,10 @@
                 <label class="option-label"><input type="radio" name="tires" value="15" checked> Estándar (+15)</label>
                 <label class="option-label"><input type="radio" name="tires" value="25"> Slick (+25 Vel / -Peso)</label>
                 <label class="option-label"><input type="radio" name="tires" value="5"> Madera (+5 Agil)</label>
+                <label class="option-label"><input type="radio" name="tires" value="-10"> acero (-10 poder)</label>
+                <label class="option-label"><input type="radio" name="tires" value="30"> ligeros (+30 poder)</label>
+                <label class="option-label"><input type="radio" name="tires" value="-20"> robustos (-20 poder)</label>
+
             </div>
         </div>
 
@@ -38,13 +44,16 @@
             <div class="checkbox-group">
                 <label class="option-label"><input type="checkbox" name="upgrades" value="15"> Super Champiñón (+15)</label>
                 <label class="option-label"><input type="checkbox" name="upgrades" value="20"> Alerón Dorado (+20)</label>
+                <label class="option-label"><input type="checkbox" name="upgrades" value="-15"> Bananas (-15)</label>
+                <label class="option-label"><input type="checkbox" name="upgrades" value="+50"> Estrella (+50)</label>
+                <label class="option-label"><input type="checkbox" name="upgrades" value="-25"> Bill bala (-25)</label>
                 <label class="option-label"><input type="checkbox" name="upgrades" value="-10"> Caparazón Bowser (-10 Peso)</label>
             </div>
         </div>
 
         <div class="form-group">
             <label for="driverLevel">Nivel de Motor (1-5):</label>
-            <input type="number" id="driverLevel" min="1" max="5" value="1">
+            <input type="number" id="driverLevel" min="1" max="9" value="1">
         </div>
     </form>
 
